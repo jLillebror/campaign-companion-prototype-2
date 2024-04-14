@@ -9,5 +9,5 @@
 
 ## Contact Page
 - Link to Email, Github and LinkedIn.
-- 
+
 ### Navigation Menu: This menu allows users to navigate between pages of the prototype application.
