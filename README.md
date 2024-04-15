@@ -2,8 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, go into the ternimal and install next
 
+```bash
+npm install next
+
+npm install -g next
+```
+then run the command server
 ```bash
 npm run dev
 # or
