@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+.campaign-form {
+    max-width: 15rem;
+    width: 100%;
+    margin: 1.25rem auto;
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); 
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.campaign-form label {
+    display: block;
+    margin-bottom: 0.3125rem;
+}
+
+.campaign-form input[type="text"],
+.campaign-form textarea,
+.campaign-form select {
+    width: calc(100% - 0.625rem); 
+    padding: 0.625rem;
+    margin-bottom: 0.625rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.3125rem;
+    line-height: 1.5; 
+}
+
+.campaign-form select {
+    appearance: none;
+}
+
+.campaign-form button {
+    padding: 0.625rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+}
+
+.campaign-form button:hover {
+    background-color: #0056b3;
+}
+
+.campaign-form ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.campaign-form ul li {
+    margin-bottom: 0.3125rem;
+}
+
+.campaign-form ul li button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 0.3125rem;
+    padding: 0.3125rem 0.625rem;
+    cursor: pointer;
+}
+
+.campaign-form ul li button:hover {
+    background-color: #c82333;
+}
